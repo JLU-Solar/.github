@@ -5,14 +5,41 @@
   <title>JLU-Solar</title>
   <style>
     body {
-      background-color: #111;
-      color: #eee;
       font-family: sans-serif;
+      padding: 2rem;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    body.light-mode {
+      background-color: #ffffff;
+      color: #000000;
+    }
+
+    body.dark-mode {
+      background-color: #111111;
+      color: #eeeeee;
+    }
+
+    button {
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+      cursor: pointer;
     }
   </style>
 </head>
-<body>
-  <h1>欢迎来到吉林大学人工智能学院 Solar 组</h1>
-  <p>这是我们组织的主页。</p>
+<body class="light-mode">
+  <button onclick="toggleMode()">🌗 切换亮/暗模式</button>
+
+  <h1>欢迎来到 吉林大学人工智能学院 Solar 组</h1>
+  <p>这是我们的 GitHub Pages 首页。</p>
+
+  <script>
+    function toggleMode() {
+      const body = document.body;
+      body.classList.toggle("light-mode");
+      body.classList.toggle("dark-mode");
+    }
+  </script>
 </body>
 </html>
