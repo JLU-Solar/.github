@@ -5,3 +5,8 @@ Solar Group, School of Artificial Intelligence, Jilin University,  Changchun Cit
 ## Research Fields
 
 Spiking Neural Network, Prompts Optimization, Large Language Models, Computer Vision, Natural Language Processing.
+
+
+
+
+
