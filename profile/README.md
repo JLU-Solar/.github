@@ -1,13 +1,12 @@
-# Solar-Group
+# Hi three 👋, this is Solar-Group!
 Solar Group, School of Artificial Intelligence, Jilin University, Changchun City, Jilin Province, China.
 
-Research Fields
+## Research Fields
 Spiking Neural Network, Prompts Optimization, Large Language Models, Computer Vision, Natural Language Processing.
 
-Page of Organization:
+### Page of Organization:
 https://jlu-solar.github.io/
 
-## Hi there 👋
 
 <!--
 
